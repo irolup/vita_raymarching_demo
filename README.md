@@ -59,7 +59,11 @@ But they do the same thing - raymarching with PBR lighting. No meshes, just math
 
 ## Screenshots
 
-Check the `screenshots/` folder for screenshots.
+### PS Vita
+![PS Vita Screenshot](screenshots/vita.png)
+
+### Linux
+![Linux Screenshot](screenshots/linux.png)
 
 ## Troubleshooting
 
