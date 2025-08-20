@@ -8,18 +8,7 @@ Basically, it's a real-time rendered scene using raymarching (no polygons!) with
 - A shiny red ball that reflects stuff
 - A blue matte ball that doesn't reflect
 - Both balls sitting on a gray plane
-- The red ball bounces around in a figure-8 pattern
 - Proper PBR materials and lighting
-
-
-## What You'll See
-
-The scene is pretty simple but looks good:
-- Gray ground plane
-- Red metallic sphere (shiny, moves around, has reflections)
-- Blue diffuse sphere (matte, stays put)
-- Nice sky gradient background
-- Dynamic lighting
 
 ## Building and Running
 
@@ -49,11 +38,11 @@ Install the `build/raymarch.vpk` on your Vita and run it.
 
 ## How It Works
 
-The magic happens in the shaders. Each platform uses different shader languages:
+Each platform uses different shader languages:
 - **PS Vita**: CG shaders (`raymarch.vert`/`raymarch.frag`)
 - **Linux**: GLSL shaders (`raymarch_glsl.vert`/`raymarch_glsl.frag`)
 
-But they do the same thing - raymarching with PBR lighting. No meshes, just math!
+But they do the same thing - raymarching with PBR lighting.
 
 **Note:** The shaders look a bit different between platforms due to PS Vita's hardware limitations. The Vita version has reduced raymarching iterations, simplified effects, and some optimizations to run smoothly on the mobile GPU. But the core rendering and visual result should be very similar!
 
