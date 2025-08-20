@@ -44,7 +44,7 @@ Each platform uses different shader languages:
 
 But they do the same thing - raymarching with PBR lighting.
 
-**Note:** The shaders look a bit different between platforms due to PS Vita's hardware limitations. The Vita version has reduced raymarching iterations, simplified effects, and some optimizations to run smoothly on the mobile GPU. But the core rendering and visual result should be very similar!
+**Note:** The shaders look a bit different between platforms due to PS Vita's hardware limitations. The Vita version has reduced raymarching iterations, simplified effects, and some optimizations to run smoothly on the mobile GPU.
 
 ## Screenshots
 
